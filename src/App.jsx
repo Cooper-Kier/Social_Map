@@ -1,11 +1,11 @@
 import React from 'react'
 import './App.css'
-import ImageWeb from './components/ImageWeb'
+import UsersWeb from './components/UsersWeb'
 
 function App() {
   return (
     <div className="App">
-      <ImageWeb />
+      <UsersWeb />
     </div>
   )
 }

@@ -1,0 +1,24 @@
+.node {
+  position: absolute;
+  width: 100px;
+  height: 100px;
+  transform: translate(-50%, -50%);
+  transition: transform 0.3s ease;
+  cursor: pointer;
+  background-color: white;
+  border-radius: 50%;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+.node:hover {
+  transform: translate(-50%, -50%) scale(1.1);
+  z-index: 3;
+}
+
+.node img {
+  width: 100%;
+  height: 100%;
+  border-radius: 50%;
+  object-fit: cover;
+  border: 3px solid white;
+}
